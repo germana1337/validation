@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>validation</title>
+</head>
+
+<body>
+    <section>
+        <div class="auth-form-container">
+            <form action="" id="form-registration" method="GET">
+                <div class="form-wraper">
+                    <label class="text-input-label" for="fname">სახელი</label>
+                    <input class="text-input" type="text" id="fname" name="username" placeholder="ჩაწერეთ სახელი" />
+                    <span class="error-text" id="error_username"></span>
+                </div>
+
+                <div class="form-wraper">
+                    <label class="text-input-label" for="lname">გვარი</label>
+                    <input class="text-input" type="text" id="lname" name="lastname" placeholder="ჩაწერეთ სახელი" />
+                    <span class="error-text" id="error_lastname"></span>
+                </div>
+
+                <div class="form-wraper password-form">
+                    <label class="text-input-label" for="passw1">პაროლი</label>
+                    <input class="text-input password-input" type="password" id="passw1" name="mypassword"
+                        placeholder="ჩაწერეთ პაროლი" />
+                    <i class="fa-solid fa-eye-slash show-icon toggle-icon" id="togglrIcon1"></i>
+                    <span class="error-text" id="error_mypassword"></span>
+                </div>
+                <div>
+
+                </div>
+                <div class="form-wraper password-form-2">
+                    <label class="text-input-label" for="passw2">გაიმეორეთ პაროლი</label>
+                    <input class="text-input password-input" type="password" id="passw2" name="mypassword2"
+                        placeholder="გაიმეორეთ პაროლი" />
+                    <i class="fa-solid fa-eye-slash show-icon toggle-icon" id="togglrIcon2"></i>
+                    <span class="error-text" id="error_mypassword2"></span>
+                </div>
+                <div class="form-wraper">
+                    <label for="myemail-label">ელ-ფოსტა</label>
+                    <input class="emailField" type="email" id="myemail" name="email" placeholder="ელ-ფოსტა" />
+                    <span class="error-text" id="error_myemail"></span>
+                </div>
+
+                <div class="age-div">
+                    <span class="choose-sex">აირჩიეთ სქესი</span>
+                    <input class="age-input" type="radio" name="age" id="age1" class="age" />
+                    <label for="age1">მამრობითი</label>
+                    <input class="age-input-2" type="radio" id="age2" name="age" class="age" />
+                    <label for="age2">მდედრობითი</label>
+                    <span class="error-text" id="error_age"></span>
+                </div>
+
+                <div class="form-group">
+                    <label class="text-input-label" for="birthDate">დაბადების ადგილი</label>
+                    <select class="locations">
+                        <option>საქართველო</option>
+                        <option>საბერძნეთი</option>
+                        <option>ამერიკა</option>
+                        <option>ბრიტანეთი</option>
+                    </select>
+                </div>
+                <div class="terms-n-conds">
+                    <input class="#" type="checkbox" name="agree" id="agree" />
+                    <labe class="terms-class" for="agree">მე ვეთანხმები წესებს და პირობებს</label>
+                        <span class="error-text" id="error_agree"></span>
+                </div>
+                <button class="btn btn-primary w-100 mb-15">რეგისტრაცია</button>
+                <a class="btn btn-link" href="./auth.html">ავტორიზაცია</a>
+            </form>
+        </div>
+    </section>
+
+    <script src="valid.js"></script>
+</body>
+
+</html>
