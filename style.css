@@ -1,7 +1,7 @@
 @import url("//cdn.web-fonts.ge/fonts/alk-sanet/css/alk-sanet.min.css");
 @import url("//cdn.web-fonts.ge/fonts/bpg-glaho-bold/css/bpg-glaho-bold.min.css");
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,7 +10,7 @@
 
 
 
-body{
+body {
     background-color: rgb(26, 26, 26);
 }
 
@@ -22,45 +22,48 @@ body{
     position: relative;
     border: 1px solid #fff;
     margin-bottom: 10px;
-    
+
 }
 
-.password-form{
+.password-form {
     border: 1px solid #fff;
 }
-.password-form-2{
+
+.password-form-2 {
     margin-top: 10px;
     border: 1px solid #fff;
 }
-.text-input{
+
+.text-input {
     width: 100%;
     padding: 10px;
 }
 
-.choose-sex{
-display: flex;
-justify-content: center;
-position: absolute;
-top: 0;
-margin-left: 110px;
-font-weight: 600;
+.choose-sex {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    margin-left: 110px;
+    font-weight: 600;
 }
 
-.age-input{
-display: inline-block;
-margin-left: 20px;
- 
-}
-.age-input-2{
-display: inline-block;
-margin-left: 40px;
+.age-input {
+    display: inline-block;
+    margin-left: 20px;
 
 }
 
-.emailField{
+.age-input-2 {
+    display: inline-block;
+    margin-left: 40px;
+
+}
+
+.emailField {
     width: 100%;
     padding: 8px;
-   margin-top: 5px;
+    margin-top: 5px;
 }
 
 
@@ -71,37 +74,38 @@ margin-left: 40px;
     top: 40px;
     color: #000;
     cursor: pointer;
-  }
+}
 
 
-  .auth-form-container{
-   margin-top: 50px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   font-family: "ALK Sanet", sans-serif;
-   font-size: 14px;
-   color: #fff;
+.auth-form-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "ALK Sanet", sans-serif;
+    font-size: 14px;
+    color: #fff;
 
-  }
+}
 
-  .auth-form-container .text-input-label {
+.auth-form-container .text-input-label {
     display: block;
     margin-bottom: 5px;
 }
 
-.age-div{
-    display: flex;
-    position: relative;
-}
 
-.age-div{
+
+.age-div {
+    background-color: rgb(41, 38, 38);
+    cursor: pointer;
     display: inline-block;
     border: 1px solid #fff;
     width: 400px;
     padding: 15px;
 }
-.form-group{
+
+.form-group {
+    cursor: pointer;
     width: 400px;
     margin-top: 10px;
     display: flex;
@@ -109,22 +113,25 @@ margin-left: 40px;
     padding: 8px;
 }
 
-.terms-n-conds{
+.terms-n-conds {
     width: 400px;
     border: 2px solid #000;
     padding: 10px;
     background-color: rgb(74, 222, 173);
     cursor: pointer;
 }
-.terms-class{
+
+.terms-class {
     margin-left: 15px;
     font-size: 14px;
     font-weight: 600;
+    color: #000;
+    cursor: pointer;
     font-family: "ALK Sanet", sans-serif;
 }
 
 
-.btn{
+.btn {
     margin-top: 10px;
     width: 300px;
     padding: 10px;
@@ -168,6 +175,7 @@ margin-left: 40px;
     justify-content: center;
     align-items: center;
     background-color: #000;
+    border: 1px solid rgb(74, 222, 173);
 }
 
 .btn-primary {
@@ -184,6 +192,7 @@ margin-left: 40px;
     width: 100%;
 
 }
+
 .btn-link:hover {
     text-decoration: underline;
 }
